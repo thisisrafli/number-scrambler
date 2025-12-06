@@ -13,7 +13,7 @@ def number_scrambler(input)
             num += numbers[random_index]
          end
          
-         if num != numbers.to_s
+         if num != numbers
             return num.to_i
          end
          
